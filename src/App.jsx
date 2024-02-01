@@ -1,11 +1,10 @@
 import { useState } from 'react';
 
-import './App.css';
-
 function App() {
+  const title = 'react + vite';
   return (
     <div>
-      <h1>hello react + vite</h1>
+      <h1>hello {title} application </h1>
     </div>
   );
 }
