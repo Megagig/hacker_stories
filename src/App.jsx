@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 function App() {
   const welcome = {
     greeting: 'Hey',
