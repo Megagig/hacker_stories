@@ -19,7 +19,7 @@ const list = [
   },
 ];
 
-function App() {
+const App = () => {
   const welcome = {
     greeting: 'Hey',
     title: 'React',
@@ -35,5 +35,5 @@ function App() {
       <List list={list} />
     </div>
   );
-}
+};
 export default App;

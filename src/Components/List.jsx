@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-function List({ list }) {
+const List = ({ list }) => {
   return (
     <ul>
       {list.map((item) => (
@@ -15,7 +15,7 @@ function List({ list }) {
       ))}
     </ul>
   );
-}
+};
 
 List.propTypes = {
   list: PropTypes.arrayOf(
